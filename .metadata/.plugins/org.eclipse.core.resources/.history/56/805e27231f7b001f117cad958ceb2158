@@ -1,0 +1,8 @@
+package com.groot;
+
+public class Student {
+	private static Student s=new Student();
+	private Student() {
+		
+	}
+}

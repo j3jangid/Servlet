@@ -1,0 +1,26 @@
+package com.groot.db;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DBOperations {
+		public static DBOperations dbOperations;
+//		public static  Connection=null;
+		public static Connection getConnection(String dbUrl,String dbName,String dbPassword) {
+			Connection conn=null;
+			try {
+				Class.forName("com.mysql.cj.jdbc.Driver");
+			}catch(ClassNotFoundException e) {
+				e.printStackTrace();
+			}
+			try {
+				
+				conn=DriverManager.getConnection(dbUrl,dbName,dbPassword);
+			}catch (Exception e) {
+				// TODO: handle exception
+				e.printStackTrace();
+			}
+			return conn;
+			
+		}
+}

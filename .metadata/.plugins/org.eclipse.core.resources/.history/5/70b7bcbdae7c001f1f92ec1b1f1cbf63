@@ -1,0 +1,7 @@
+package com.groot.respo;
+
+public class GetConnectiopn {
+		public void getConnection() {
+			Class.forName("com.mysql.jdbc.cj.Driver");
+		}
+}

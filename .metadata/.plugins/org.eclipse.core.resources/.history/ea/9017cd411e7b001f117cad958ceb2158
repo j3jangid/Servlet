@@ -1,0 +1,23 @@
+package com.groot.db;
+
+import java.sql.Connection;
+
+public class DBOperations {
+		public static Connection getConnection(String dburl,String dbname,String dbPassword) {
+			Connection conn=null;
+			try {
+				Class.forName("");
+			}catch(ClassNotFoundException e) {
+				
+			}
+			try {
+				
+				conn=
+			}catch (Exception e) {
+				// TODO: handle exception
+				e.printStackTrace();
+			}
+			return null;
+			
+		}
+}

@@ -1,0 +1,9 @@
+127.0.0.1 - - [22/Aug/2024:13:26:24 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:13:26:24 +0530] "GET /ProcessData/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:13:26:25 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:13:26:50 +0530] "GET /ProcessData/sendDetails?n1=j&m1=j&e1=j&p1=j HTTP/1.1" 500 28
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:13:27:46 +0530] "GET /ProcessData/sendDetails?n1=j&m1=j&e1=j&p1=j HTTP/1.1" 200 28
+127.0.0.1 - - [22/Aug/2024:13:53:52 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:13:53:57 +0530] "GET /ProcessData/sendDetails?n1=k&m1=k&e1=k&p1=k HTTP/1.1" 200 28
+127.0.0.1 - - [22/Aug/2024:14:08:47 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:14:09:06 +0530] "GET /ProcessData/sendDetails?n1=name&m1=mobile&e1=mail&p1=pass HTTP/1.1" 200 42

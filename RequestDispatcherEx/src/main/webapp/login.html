@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+    <style>
+        .outer{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+<form action="./loginProcess">
+    <div class="outer">
+        <div>
+            <label for="email">Email :</label>
+            <input type="text" name="emailBy" id="email">
+        </div>
+        <div>
+            <label for="password">Password :</label>
+            <input type="text" name="passwordBy" id="password">
+        </div>
+        <div>
+            <button type="button">Reset Password</button>
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+    </form>
+
+</body>
+</html>

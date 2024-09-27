@@ -1,0 +1,60 @@
+package com.groot.respo;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.util.List;
+
+import com.groot.entity.Student;
+
+public class StduentDBImplMySQL implements StudentDB{
+	Connection conn=GetConnectiopn.getConnection();
+	@Override
+	public int add(Student st) {
+		// TODO Auto-generated method stub
+		
+		return 0l
+	}
+
+	@Override
+	public int update(Student st) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int delete(Student st) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int deleteById(int id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int deleteById(Student id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public ResultSet getStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Student getStudent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Student> getStudentList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

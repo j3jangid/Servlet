@@ -1,0 +1,7 @@
+package com.groot.respo;
+
+import com.groot.entity.Student;
+
+public interface StudentDB {
+		public int addStudent(Student st);
+}

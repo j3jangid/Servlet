@@ -1,0 +1,12 @@
+package com.groot.respo;
+
+public class GetConnectiopn {
+		public void getConnection() {
+			try {
+				Class.forName("com.mysql.jdbc.cj.Driver");
+			} catch (ClassNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+}
